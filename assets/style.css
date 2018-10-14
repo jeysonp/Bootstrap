@@ -16,6 +16,14 @@ body {
     margin-bottom: 25px;
 }
 
+.container #main_content {
+    background: #fff;
+    margin-top:3%;
+    padding: 2%;
+    border: 2px solid #ccc;
+    width: 80%;
+}
+
 .bg-dark {
     background-color: #4aaaa5;
 }
