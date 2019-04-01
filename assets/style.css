@@ -1,7 +1,8 @@
 body {
     background-image: url("../assets/images/light_checkered_tiles_@2X.png");
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;   
+    color: #777;
+    margin-bottom: 10%;   
 }
 
 .container {
@@ -21,19 +22,22 @@ body {
     margin-top:3%;
     padding: 2%;
     border: 2px solid #ccc;
-    width: 80%;
+    align-self: center;
 }
 
-.bg-dark {
-    background-color: #4aaaa5;
+.labelBox {
+    color:#fff;
+    background-color: #343a40;
+    border: 4px solid;
 }
 
-.navbar-brand {
+h1.navbar-brand {
     display: inline-block;
-    padding-top: 1.3125rem;
-    padding-bottom: 1.3125rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-size: 2.25rem;
 }
+
 footer {
     background: #343a40;
     margin-top: 5%;
@@ -45,8 +49,8 @@ footer {
     font-size: 12px;
 }
 
-.navbar-brand h1 {
-    font-weight: bold; 
+h1.navbar-brand {
+    font-weight: bold;
 }
 
 input {
@@ -69,5 +73,10 @@ button {
     background: #343a40;
     color: #fff;
     padding: 10px 20px;
+}
+
+h1 {
+    color: rgb(56, 56, 56);
+    font-weight: bold;
 }
 
